@@ -8,7 +8,7 @@ Welcome to sstudentt's documentation!
    readme
    installation
    usage
-   modules
+   sstudentt
    contributing
    authors
    history
