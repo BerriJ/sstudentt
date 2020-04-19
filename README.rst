@@ -15,7 +15,7 @@ sstudentt
 
 
 .. image:: https://pyup.io/repos/github/berrij/sstudentt/shield.svg
-     :target: https://pyup.io/repos/github/berrij/sstudentt/
+     :target: https://pyup.io/repos/github/BerriJ/sstudentt/
      :alt: Updates
 
 
