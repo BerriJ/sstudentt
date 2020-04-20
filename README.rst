@@ -22,20 +22,34 @@ sstudentt
 .. image:: https://img.shields.io/github/followers/BerriJ?label=Follow&style=for-the-badge
         :alt: GitHub followers
 
+=======================================================
 An implementation of the skewed student-t distribution.
+=======================================================
 
-
-* Free software: GNU General Public License v3
-* Documentation: https://sstudentt.readthedocs.io.
-
+This package implements the skewed student-t distribution parameterized as described in Wurtz et. al (2006).
 
 Features
 --------
 
-* TODO
+* Evaluate the density function
+* Evaluate the cumulative distribution function
+* Evaluate the quantile function
+* Generate random numbers
 
-Credits
+References
+----------
+
+  * Wurtz, Y. Chalabi, and L. Luksan. Parameter estimation of arma models with garch/aparch errors. an r and splus software implementation. Journal of Statistical Software, 2006.
+  * R Implementation: https://www.gamlss.com/wp-content/uploads/2018/01/DistributionsForModellingLocationScaleandShape.pdf
+
+
+Licence
 -------
+Free software: GNU General Public License v3
+
+Documentation
+-------------
+Documentation: https://sstudentt.readthedocs.io.
 
 This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
 
