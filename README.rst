@@ -1,7 +1,3 @@
-=========
-sstudentt
-=========
-
 .. image:: https://img.shields.io/pypi/v/sstudentt?style=for-the-badge
         :alt: PyPI
 

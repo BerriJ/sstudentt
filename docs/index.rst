@@ -1,4 +1,4 @@
-Welcome to sstudentt's documentation!
+Welcome to the sstudentt package documentation!
 ======================================
 
 .. toctree::
