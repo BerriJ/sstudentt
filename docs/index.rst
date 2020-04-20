@@ -8,7 +8,7 @@ Welcome to the sstudentt package documentation!
    readme
    installation
    usage
-   sstudentt
+   SST
    contributing
    authors
    history

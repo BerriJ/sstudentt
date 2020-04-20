@@ -1,4 +1,4 @@
-sstudentt module
+SST Class
 =================
 
 .. automodule:: sstudentt.sstudentt

@@ -15,8 +15,6 @@
 .. image:: https://img.shields.io/pypi/l/sstudentt?style=for-the-badge
         :alt: PyPI - License
 
-.. image:: https://img.shields.io/github/followers/BerriJ?label=Follow&style=for-the-badge
-        :alt: GitHub followers
 
 =======================================================
 An implementation of the skewed student-t distribution.
