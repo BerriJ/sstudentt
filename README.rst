@@ -2,23 +2,25 @@
 sstudentt
 =========
 
+.. image:: https://img.shields.io/pypi/v/sstudentt?style=for-the-badge
+        :alt: PyPI
 
-.. image:: https://img.shields.io/pypi/v/sstudentt.svg
-        :target: https://pypi.python.org/pypi/sstudentt
+.. image:: https://img.shields.io/pypi/status/sstudentt?style=for-the-badge
+        :alt: PyPI - Status
 
-.. image:: https://img.shields.io/travis/berrij/sstudentt.svg
+.. image:: https://img.shields.io/travis/BerriJ/sstudentt?style=for-the-badge
+        :alt: Travis (.org)
         :target: https://travis-ci.org/berrij/sstudentt
 
-.. image:: https://readthedocs.org/projects/sstudentt/badge/?version=latest
-        :target: https://sstudentt.readthedocs.io/en/latest/?badge=latest
+.. image:: https://img.shields.io/readthedocs/sstudentt?style=for-the-badge
         :alt: Documentation Status
+        :target: https://sstudentt.readthedocs.io/
 
+.. image:: https://img.shields.io/pypi/l/sstudentt?style=for-the-badge
+        :alt: PyPI - License
 
-.. image:: https://pyup.io/repos/github/berrij/sstudentt/shield.svg
-     :target: https://pyup.io/repos/github/BerriJ/sstudentt/
-     :alt: Updates
-
-
+.. image:: https://img.shields.io/github/followers/BerriJ?label=Follow&style=for-the-badge
+        :alt: GitHub followers
 
 An implementation of the skewed student-t distribution.
 
