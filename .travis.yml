@@ -8,11 +8,10 @@ script: tox
 deploy:
   provider: pypi
   distributions: sdist bdist_wheel
-  user: berrij
-  server: https://test.pypi.org/legacy/ # Remove for deployment to official PyPi repo
+  user: __token__
+  server: https://test.pypi.org/legacy/
   password:
-    secure: fomrL1DxfIG3c2WLMIXOt3c1uIHL7nc+Z57EzSkbKfAJ1HWbXqx4j36KWw+EUf7797YqdqgHY7A702naqUuKgki69mTvX+Qas/Mke8D11+XULldIwvUhvGcz3MSpuxhwzm6TomKsXAY5fSyxuui8Lsd0HXAI3fIa4BAy0izqLQ7J83ILPZ7g6INcF7vlQK295VbngKJPPl3N/KYP2XSqz3E/u9wdfMx8p1fUyeHw1nToxk3kDxoN/lW887KlpyOlIYrJwanL1tmUSVxndDRl8nc6sU0gbtB9eKp2eQc8Z6VbdmF0HU8TJXLUmW6ekVsdrx14mFhyiuIaurz/Qpk1NfEHKWV/AYO2oW6roZmS94qxdXs/Xa+C6HVqzyIOq9fQRgclNmNnHo6ISQGN9CHShKwKqJQevFyIvntqbD1ar21r+hBQ5NUKZJAsBq0jQ92Xb9TlKatmY7p6zsNP+tC/zaRYUEqEO5geDUyVgmnp9kHjc8MpR3ziLX0xG5V0x7VWp5SRASQ8E+clV/aOhtTz3yH0bqUPE+e+LWxF+LhzyMsEVPsKWLQ82aqFRzuuMHqQxIgqTC/nkxcl8dRtm8SiRCLimzPybJtztSw3erIlNmCZ612ckgm8VicekNdEeDX/n9ZD5/p5f8VgoHOdhES7HTFIHMn29+OoGnKH9rNzEKE=
+    secure: uoPPo1Q1oP0E29QD4AyMUYXzz0Fhs404mlFHpk3zoQvZxti0xmMwuIAPt9lI20A6Y6WKE28W9zVZhQ95fCI4IHOENjC12HRFWSbr6vmuNC44sxsbRA6RSSlWKuVpkplVDnd/OpnzQwqlq/ncaGJIfsEFWv8sujDZL50F8fE1udOdiYF3GlgYFwqfiaQPvxHvvEJn8NFmC9/yxMYAP6XM7CDrHkJfCZc8NI366OstY1cW6XWsDD99P+VsMFKxigRCtd/fvmtrNgvs/UgwQxvAo0VCaEL0EKjIwxPXIWAagjokdXs9NE4IoB98tQZmW+u6XRAqNQyz/aLSek+2TREhkTzcDYYnyOyDEKmQGQu1C8zEqP5kNT2NkZ4jGMCmSksmrYiUUA3FjVU++RPQd+6c3NUcwnaTvRIJ+ZRpQ+mlP/9eussyV0Gr3J9P5x3QDk2kThV7kuZ3JHi7iDigLZmrWnCfVDOEypGLZd+xZ6Vv/LOJwLf3XY8zbqNaCH2aO6Bb3XxzHneUpz4RmGK3dQ1+wvTs9IqtvO5vO4Wrmon6nfN7FGqTolwySAiT3WpqESdbR1pbiHMkxWhB8wYULRSaAyWWqKcEreMxWytYTVRpQ5Xn0aR2W0YbYw2WRwYCRiMMT+YmlUMvJ/h8goB3x+wBvTq6EiwtU0b4SmmkKqexjBo=
   on:
-    # tags: true
     repo: BerriJ/sstudentt
     python: 3.7
