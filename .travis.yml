@@ -9,10 +9,10 @@ deploy:
   provider: pypi
   distributions: sdist bdist_wheel
   user: berrij
-  server: https://testpypi.python.org/pypi # Remove for deployment to official PyPi repo
+  server: https://test.pypi.org/legacy/ # Remove for deployment to official PyPi repo
   password:
     secure: fomrL1DxfIG3c2WLMIXOt3c1uIHL7nc+Z57EzSkbKfAJ1HWbXqx4j36KWw+EUf7797YqdqgHY7A702naqUuKgki69mTvX+Qas/Mke8D11+XULldIwvUhvGcz3MSpuxhwzm6TomKsXAY5fSyxuui8Lsd0HXAI3fIa4BAy0izqLQ7J83ILPZ7g6INcF7vlQK295VbngKJPPl3N/KYP2XSqz3E/u9wdfMx8p1fUyeHw1nToxk3kDxoN/lW887KlpyOlIYrJwanL1tmUSVxndDRl8nc6sU0gbtB9eKp2eQc8Z6VbdmF0HU8TJXLUmW6ekVsdrx14mFhyiuIaurz/Qpk1NfEHKWV/AYO2oW6roZmS94qxdXs/Xa+C6HVqzyIOq9fQRgclNmNnHo6ISQGN9CHShKwKqJQevFyIvntqbD1ar21r+hBQ5NUKZJAsBq0jQ92Xb9TlKatmY7p6zsNP+tC/zaRYUEqEO5geDUyVgmnp9kHjc8MpR3ziLX0xG5V0x7VWp5SRASQ8E+clV/aOhtTz3yH0bqUPE+e+LWxF+LhzyMsEVPsKWLQ82aqFRzuuMHqQxIgqTC/nkxcl8dRtm8SiRCLimzPybJtztSw3erIlNmCZ612ckgm8VicekNdEeDX/n9ZD5/p5f8VgoHOdhES7HTFIHMn29+OoGnKH9rNzEKE=
   on:
-    tags: true
+    # tags: true
     repo: BerriJ/sstudentt
-    python: 3.8
+    python: 3.7
