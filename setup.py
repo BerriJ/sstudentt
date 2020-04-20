@@ -19,7 +19,7 @@ test_requirements = ['pytest>=3', ]
 setup(
     author="Jonathan Berrisch",
     author_email='jonathan@berrisch.biz',
-    python_requires='>=3.5',
+    python_requires='>=3.6',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
