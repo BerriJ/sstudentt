@@ -13,5 +13,6 @@ deploy:
   password:
     secure: t8l6XUXuvJ5ISJ6zHsGdMwZvOyE0XU6ZY/mA5eWfml0GXrXQUBit/eUhZJnQL6w6B1/yFc/cA2WpxE5InMETyiGRvFieGI9N3bj2EpttqdipSwFCRM3/yhxu78vXofnue70GviBOuOqxx7EEpceNRugOSoRn3gtXjXlRgXMlzmlClJss2tUTlH7u5wlLScGOvoPR7ol5yyzIparPvtItDWGEl+ZrMnI/9JdVRR3oAyHQNOBwXSD9fYkTvkmkwRQm9Z5Pu/+ICUzY8woa+CGdxMEGKfg3eUSQDD9TXdqkU/fgHE01F7js+LzpArIYLnWhfbWXfg2UIqDoYtQr5wvxiXBgtk9OrkWvBQJBT4hap9XVfcsfkEeUyHlTIPB/XSr9AsxpSkypZD/QbgycDjIedu8H6UbcWU5ITZN/g2wwUjz1dbM1ktG2v4YiNB5s/t3OkV6GxlSMenMU6ITIPhSOjn1kK7ov5teN+g6ZsEUDrMd0O+e9UvU4DCoVTxG4t352v3nRVY60IIYvD7cNveaOb00PjNr/iptEsEvU8AA6hcveeu5tHmC5l7FuQbzHaRO28lLRFcGyHHdHHcFd5SCJfPPSBDH5VdsqckHnqQ5Ckpl05ux7fpzkpK/fkRCxDv0kmKanUelkSv5EE2m2OKfvqBznBHV51LLZO7/nQJ+3DUs=
   on:
+    tags: true
     repo: BerriJ/sstudentt
     python: 3.7
