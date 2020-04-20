@@ -4,4 +4,4 @@ from .sstudentt import SST
 
 __author__ = """Jonathan Berrisch"""
 __email__ = 'jonathan@berrisch.biz'
-__version__ = '0.0.2'
+__version__ = '0.0.3'
