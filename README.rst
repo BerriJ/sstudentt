@@ -7,7 +7,7 @@ sstudentt
         :target: https://pypi.python.org/pypi/sstudentt
 
 .. image:: https://img.shields.io/travis/berrij/sstudentt.svg
-        :target: https://travis-ci.com/berrij/sstudentt
+        :target: https://travis-ci.org/berrij/sstudentt
 
 .. image:: https://readthedocs.org/projects/sstudentt/badge/?version=latest
         :target: https://sstudentt.readthedocs.io/en/latest/?badge=latest
