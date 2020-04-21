@@ -7,7 +7,7 @@ To use the distribution in a project::
     # Import SST class directly
     from sstudentt import SST
 
-First create an instance of the :ref:`SST` class as follows::
+First create an instance of the :class:`SST` class as follows::
 
     dist = SST(mu = 1, sigma = 1, nu = 1, tau = 5)
 

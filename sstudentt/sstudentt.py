@@ -4,21 +4,22 @@ import numpy as np
 from scipy import stats
 from scipy.special import beta
 
+
 class SST:
-    """
-    Creates an Instance of the Skewed Student T Distribution.
-    In this parameterization the expectation equals mu and standard deviation equals sigma.
-    """
     # Init Parameters
     def __init__(self, mu, sigma, nu, tau):
-        '''
-        Inits the SST Instance
-        :param mu: (array like) mu parameter values
-        :param sigma: (array like) scale parameter values
-        :param nu: (array like) nu parameter values
-        :param tau: (array like) tau parameter values
-        If arrays are provided, they need to be either of the same shape or a mix of scalars and same shaped arrays.
-        '''
+        """
+        Creates an Instance of the Skewed Student T Distribution.
+        In this parameterization the expectation equals mu and standard deviation equals sigma.
+        :param mu: mu parameter
+        :type mu: scalar or array_like
+        :param sigma: sigma parameter
+        :type sigma: scalar or array_like
+        :param nu: nu parameter
+        :type nu: scalar or array_like
+        :param tau: tau parameter
+        :type tau: scalar or array_like
+        """
         self.mu = np.asarray(mu).astype(float)
         self.sigma = np.asarray(sigma).astype(float)
         self.nu = np.asarray(nu).astype(float)
@@ -31,11 +32,12 @@ class SST:
 
     # Density Function
     def d(self, y):
-        '''
-        Density Function
-        :param y: (array like) distribution values
+        """Density Function
+        :param y: distribution values
+        :type y: scalar or array_like
         :return: density at the specified y values
-        '''
+        :rtype: array
+        """
         mu_0 = self.mu_0
         sigma_0 = self.sigma_0
         c = self.c
@@ -48,11 +50,12 @@ class SST:
         return p
 
     def q(self, p):
-        '''
-        Quantile Function / Inverse CDF / Percent Point Function
-        :param p: (array like) probabilities
+        """Quantile Function / Inverse CDF / Percent Point Function
+        :param p: probabilities
+        :type p: scalar or array_like
         :return: Quantile values corresponding to the specified probabilities.
-        '''
+        :rtype: array
+        """
         p = np.asarray(p).astype(float)
         mu_0 = self.mu_0
         sigma_0 = self.sigma_0
@@ -67,11 +70,12 @@ class SST:
 
     # Cumulative Distribution Function
     def p(self, q):
-        '''
-        Distribution Function
-        :param q: (array like) value
+        """Distribution Function
+        :param q: value
+        :type q: scalar or array_like
         :return: The probability that the SST distributed variable will take a value less than or equal to q.
-        '''
+        :rtype: array
+        """
         nu = self.nu
         mu_0 = self.mu_0
         tau = self.tau
@@ -80,17 +84,20 @@ class SST:
         prob = np.where(q < mu_0,
                         (2 / (1 + nu ** 2)) * stats.t.cdf(x=(nu * (q - mu_0) / sigma_0), df=tau),
                         (1 / (1 + nu ** 2)) * (
-                                1 + 2 * nu ** 2 * (stats.t.cdf(x=(q - mu_0) / (sigma_0 * nu), df=tau) - 0.5))
+                            1 + 2 * nu ** 2 * (stats.t.cdf(x=(q - mu_0) / (sigma_0 * nu), df=tau) - 0.5))
                         )
         return prob
 
     # Draw Random Numbers using Inversion Sampling
     def r(self, n=1):
-        '''
-        Draws Random Numbers which Follow the SST Distribution
-        :param n: (scalar or shape) size of the sample to be drawn
+        """Draws Random Numbers which Follow the SST Distribution
+        :param n: sample size
+        :type n: int or tuple of return shape, optional
         :return: random sample drawn from the SST distribution
-        Note that n is ignored if the distribution parameters are provided as arrays.
-        In that case, a sample with the shape of the provided arrays will be drawn. i.e. n = 1.
-        '''
+        :rtype: array
+
+        .. note::
+           n is ignored if the distribution parameters are provided as arrays. :mod:`pickle` on this class.
+           In that case, a sample with the shape of the provided arrays will be drawn. i.e. n = 1.
+        """
         return self.q(p=np.random.random(size=n))

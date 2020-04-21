@@ -1,5 +1,5 @@
 SST Class
 =================
 
-.. automodule:: sstudentt.sstudentt
+.. autoclass:: sstudentt.SST
    :members:

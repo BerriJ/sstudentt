@@ -1,5 +1,5 @@
 Welcome to the sstudentt package documentation!
-======================================
+===============================================
 
 .. toctree::
    :maxdepth: 2
