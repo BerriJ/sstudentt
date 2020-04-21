@@ -6,7 +6,7 @@ flake8==3.7.9
 tox==3.14.6
 coverage==5.1
 Sphinx==3.0.2
-sphinx_rtd_theme==0.4.3
+sphinx-typo3-theme==4.1.2
 twine==3.1.1
 
 pytest==5.4.1

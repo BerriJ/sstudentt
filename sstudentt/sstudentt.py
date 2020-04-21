@@ -11,6 +11,7 @@ class SST:
         """
         Creates an Instance of the Skewed Student T Distribution.
         In this parameterization the expectation equals mu and standard deviation equals sigma.
+
         :param mu: mu parameter
         :type mu: scalar or array_like
         :param sigma: sigma parameter
@@ -33,6 +34,7 @@ class SST:
     # Density Function
     def d(self, y):
         """Density Function
+
         :param y: distribution values
         :type y: scalar or array_like
         :return: density at the specified y values
@@ -51,6 +53,7 @@ class SST:
 
     def q(self, p):
         """Quantile Function / Inverse CDF / Percent Point Function
+
         :param p: probabilities
         :type p: scalar or array_like
         :return: Quantile values corresponding to the specified probabilities.
@@ -71,6 +74,7 @@ class SST:
     # Cumulative Distribution Function
     def p(self, q):
         """Distribution Function
+
         :param q: value
         :type q: scalar or array_like
         :return: The probability that the SST distributed variable will take a value less than or equal to q.
@@ -91,6 +95,7 @@ class SST:
     # Draw Random Numbers using Inversion Sampling
     def r(self, n=1):
         """Draws Random Numbers which Follow the SST Distribution
+
         :param n: sample size
         :type n: int or tuple of return shape, optional
         :return: random sample drawn from the SST distribution
