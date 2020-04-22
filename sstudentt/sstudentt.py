@@ -102,7 +102,7 @@ class SST:
         :rtype: array
 
         .. note::
-           n is ignored if the distribution parameters are provided as arrays. :mod:`pickle` on this class.
+           n is ignored if the distribution parameters are provided as arrays.
            In that case, a sample with the shape of the provided arrays will be drawn. i.e. n = 1.
         """
         return self.q(p=np.random.random(size=n))

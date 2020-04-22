@@ -1,5 +1,5 @@
 SST Class
-=========
+===========
 
 .. autoclass:: sstudentt.SST
 

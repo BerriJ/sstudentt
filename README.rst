@@ -15,12 +15,14 @@
 .. image:: https://img.shields.io/pypi/l/sstudentt?style=for-the-badge
         :alt: PyPI - License
 
+|
 
 =======================================================
 An implementation of the skewed student-t distribution.
 =======================================================
 
-This package implements the skewed student-t distribution parameterized as described in Wurtz et. al (2006).
+This package implements the skewed student-t distribution parameterized as described in Wurtz et. al (2006) [1]_.
+An implementation in R is already existent [2]_.
 
 Features
 --------
@@ -33,8 +35,9 @@ Features
 References
 ----------
 
-  * Wurtz, Y. Chalabi, and L. Luksan. Parameter estimation of arma models with garch/aparch errors. an r and splus software implementation. Journal of Statistical Software, 2006.
-  * R Implementation: https://www.gamlss.com/wp-content/uploads/2018/01/DistributionsForModellingLocationScaleandShape.pdf
+.. [1] Wurtz, Y. Chalabi, and L. Luksan. Parameter estimation of arma models with garch/aparch errors. an r and splus software implementation. Journal of Statistical Software, 2006.
+
+.. [2] R Implementation: https://www.gamlss.com/wp-content/uploads/2018/01/DistributionsForModellingLocationScaleandShape.pdf
 
 
 Licence
