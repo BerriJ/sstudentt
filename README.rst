@@ -1,8 +1,10 @@
 .. image:: https://img.shields.io/pypi/v/sstudentt?style=for-the-badge
         :alt: PyPI
+        :target: https://pypi.org/project/sstudentt/
 
 .. image:: https://img.shields.io/pypi/status/sstudentt?style=for-the-badge
         :alt: PyPI - Status
+        :target: https://pypi.org/project/sstudentt/
 
 .. image:: https://img.shields.io/travis/BerriJ/sstudentt?style=for-the-badge
         :alt: Travis (.org)
@@ -14,6 +16,7 @@
 
 .. image:: https://img.shields.io/pypi/l/sstudentt?style=for-the-badge
         :alt: PyPI - License
+        :target: https://pypi.org/project/sstudentt/
 
 |
 
