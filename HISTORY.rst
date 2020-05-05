@@ -2,6 +2,15 @@
 History
 =======
 
+0.0.5 (2020-04-19)
+------------------
+* First release on PyPi
+* Use pydata-sphinx-theme for the documentation
+
+0.0.3 (2020-04-20)
+------------------
+* Update Documentation
+
 0.0.3 (2020-04-19)
 ------------------
 * Automatic deployment on Test-PyPi via travis
