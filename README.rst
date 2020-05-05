@@ -21,10 +21,10 @@
 |
 
 =======================================================
-An implementation of the skewed student-t distribution.
+A python implementation of the skewed student-t distribution.
 =======================================================
 
-This package implements the skewed student-t distribution parameterized as described in Wurtz et. al (2006) [1]_.
+This package implements the skewed student-t distribution in python. Parameterized as described in Wurtz et. al (2006) [1]_.
 An implementation in R is already existent [2]_.
 
 Features
