@@ -9,7 +9,7 @@ Sphinx==3.0.4
 pydata-sphinx-theme==0.2.2
 twine==3.1.1
 
-pytest==5.4.2
+pytest==5.4.3
 pytest-runner==5.2
 
 numpy==1.18.4
