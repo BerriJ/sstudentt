@@ -8,7 +8,7 @@ coverage==5.2.1
 pydata-sphinx-theme==0.4.0
 Sphinx==3.2.1
 twine==3.2.0
-pytest==6.0.1
+pytest==6.1.0
 pytest-runner==5.2
 numpy==1.19.2
 scipy==1.5.2
