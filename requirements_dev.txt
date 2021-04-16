@@ -3,7 +3,7 @@ bump2version==1.0.1
 wheel==0.35.1
 tox==3.23.0
 watchdog==2.0.2
-flake8==3.9.0
+flake8==3.9.1
 pydata-sphinx-theme==0.4.3
 coverage==5.5
 twine==3.4.1
