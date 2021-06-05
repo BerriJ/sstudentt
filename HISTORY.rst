@@ -2,6 +2,10 @@
 History
 =======
 
+0.1.1 (2021-06-05)
+------------------
+* Fix malformed README file
+
 0.1.0 (2021-06-05)
 ------------------
 * Moving to beta state
