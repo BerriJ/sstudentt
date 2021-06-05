@@ -12,7 +12,7 @@
 
 .. image:: https://img.shields.io/readthedocs/sstudentt?style=for-the-badge
         :alt: Documentation Status
-        :target: https://sstudentt.readthedocs.io/
+        :target: https://sstudentt.readthedocs.io/en/latest/usage.html
 
 .. image:: https://img.shields.io/pypi/l/sstudentt?style=for-the-badge
         :alt: PyPI - License
