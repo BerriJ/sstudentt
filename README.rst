@@ -7,8 +7,8 @@
         :target: https://pypi.org/project/sstudentt/
 
 .. image:: https://img.shields.io/travis/BerriJ/sstudentt?style=for-the-badge
-        :alt: Travis (.org)
-        :target: https://travis-ci.org/berrij/sstudentt
+        :alt: Travis (.com)
+        :target: https://travis-ci.com/berrij/sstudentt
 
 .. image:: https://img.shields.io/readthedocs/sstudentt?style=for-the-badge
         :alt: Documentation Status
