@@ -1,5 +1,6 @@
 language: python
 python:
+- 3.9
 - 3.8
 - 3.7
 install: pip install -U tox-travis
@@ -13,4 +14,4 @@ deploy:
   on:
     tags: true
     repo: BerriJ/sstudentt
-    python: 3.7
+    python: 3.9
