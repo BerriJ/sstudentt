@@ -4,7 +4,7 @@ wheel==0.37.1
 tox==3.24.4
 watchdog==2.1.6
 flake8==4.0.1
-pydata-sphinx-theme==0.7.2
+pydata-sphinx-theme==0.8.0
 sphinx-rtd-theme==1.0.0
 coverage==6.2
 twine==3.6.0
