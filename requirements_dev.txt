@@ -12,4 +12,4 @@ Sphinx==4.4.0
 pytest==6.2.5
 scipy==1.7.3
 pytest-runner==5.3.1
-numpy==1.21.5
+numpy==1.22.0
