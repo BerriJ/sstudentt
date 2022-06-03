@@ -6,8 +6,8 @@ watchdog==2.1.8
 flake8==4.0.1
 pydata-sphinx-theme==0.8.1
 sphinx-rtd-theme==1.0.0
+Sphinx==5.0.1
 twine==4.0.1
-Sphinx==5.0.0
 coverage==6.4.1
 pytest==7.1.2
 scipy==1.8.1
