@@ -1,7 +1,7 @@
 pip==22.3
 bump2version==1.0.1
 wheel==0.38.0
-tox==3.26.0
+tox==3.27.0
 watchdog==2.1.9
 flake8==5.0.4
 pydata-sphinx-theme==0.11.0
