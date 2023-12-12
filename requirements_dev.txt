@@ -11,5 +11,5 @@ twine==4.0.2
 coverage==7.3.2
 scipy==1.11.3
 pytest==7.4.2
-pytest-runner==6.0.0
 numpy==1.26.2
+pytest-runner==6.0.1
