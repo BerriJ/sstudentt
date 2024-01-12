@@ -40,7 +40,7 @@ References
 
 .. [1] Wurtz, Y. Chalabi, and L. Luksan. Parameter estimation of arma models with garch/aparch errors. an r and splus software implementation. Journal of Statistical Software, 2006.
 
-.. [2] R Implementation: https://www.gamlss.com/wp-content/uploads/2018/01/DistributionsForModellingLocationScaleandShape.pdf
+.. [2] R Implementation: https://cran.r-project.org/web/packages/gamlss.dist/index.html
 
 
 Licence
