@@ -10,6 +10,6 @@ Sphinx==7.2.6
 twine==4.0.2
 coverage==7.4.1
 scipy==1.12.0
-pytest==8.0.0
+pytest==8.0.2
 numpy==1.26.3
 pytest-runner==6.0.1
